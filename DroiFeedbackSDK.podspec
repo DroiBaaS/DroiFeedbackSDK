@@ -10,7 +10,7 @@ s.author           = { "DoriBaaS" => "droiinfo@droi.com" }
 s.source           = { :git => "https://github.com/DroiBaaS/DroiFeedbackSDK-iOS.git", :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/NAME'
 
-s.platform     = :ios, '8.0'
+s.ios.deployment_target = '8.0'
 
 s.requires_arc = true
 
