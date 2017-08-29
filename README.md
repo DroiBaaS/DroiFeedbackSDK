@@ -43,10 +43,10 @@ pod  install
 #define DROI_FEEDBACK_API_KEY @"w4D6-2Bn3q17gDPwpeVragSKVHIVwRK0yhjlflNMG-pp6JhfU72GW2sOw_dfIbL7"
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-[DroiCore initializeCore];
-//使用 ApiKey 初始化 DroiFeedbackSDK 必须执行
-[DroiFeedback initializeWithAPIKey:DROI_FEEDBACK_API_KEY];
-return YES;
+    [DroiCore initializeCore];
+    //使用 ApiKey 初始化 DroiFeedbackSDK 必须执行
+    [DroiFeedback initializeWithAPIKey:DROI_FEEDBACK_API_KEY];
+    return YES;
 }
 ```
 ### 调用反馈页面  
