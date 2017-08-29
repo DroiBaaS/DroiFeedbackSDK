@@ -1,4 +1,4 @@
-﻿
+
 # 用户反馈
 
 ## 简介
@@ -31,7 +31,7 @@ pod  install
 ```
 
 ###  手动集成
-将SDK包解压，在XCode中选择”Add files to 'Your project name'…”，将解压后的`DroiFeedback.framework`和`res`文件夹下的`DroiFeedbackBundle.bundle`添加到你的工程目录中。
+将SDK包解压，在XCode中选择”Add files to 'Your project name'…”，将解压后的`DroiFeedback.framework`和`DroiFeedbackBundle.bundle`添加到你的工程目录中。
 
 ## 使用
 ### 初始化 SDK
