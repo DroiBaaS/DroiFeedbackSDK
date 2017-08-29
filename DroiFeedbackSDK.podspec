@@ -8,7 +8,8 @@ s.homepage         = "https://github.com/DroiBaaS"
 s.license      = "MIT"
 s.author           = { "DoriBaaS" => "droiinfo@droi.com" }
 s.source           = { :git => "https://github.com/DroiBaaS/DroiFeedbackSDK-iOS.git", :tag => s.version}
-s.source_files  = "DroiFeedback"
+s.vendored_frameworks = "DroiFeedback/DroiFeedback.framework"
+s.resources = "DroiFeedbackBundle.bundle"
 s.frameworks = 'Foundation', 'UIKit'
 s.libraries = "sqlite3"
 s.dependency 'DroiCoreSDK'
