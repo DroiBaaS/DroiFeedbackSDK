@@ -20,4 +20,6 @@ s.frameworks = 'Foundation', 'UIKit'
 s.libraries = "sqlite3"
 s.dependency 'DroiCoreSDK'
 s.dependency 'SDWebImage'
+s.dependency 'MBProgressHUD'
+
 end
