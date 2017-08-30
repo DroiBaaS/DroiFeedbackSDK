@@ -19,4 +19,5 @@ s.resources = "**/*.{bundle}"
 s.frameworks = 'Foundation', 'UIKit'
 s.libraries = "sqlite3"
 s.dependency 'DroiCoreSDK'
+s.dependency 'SDWebImage'
 end
